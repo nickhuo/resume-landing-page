@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/dataresume",
+      "destination": "https://dataresume.vercel.app"
+    },
+    {
+      "source": "/dataresume/(.*)",
+      "destination": "https://dataresume.vercel.app/$1"
+    }
+  ]
+}
