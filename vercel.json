@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/dataresume",
-      "destination": "https://dataresume.vercel.app"
+      "source": "/datacv",
+      "destination": "https://resume-landing-page-nine.vercel.app"
     },
     {
-      "source": "/dataresume/(.*)",
-      "destination": "https://dataresume.vercel.app/$1"
+      "source": "/datacv/(.*)",
+      "destination": "https://resume-landing-page-nine.vercel.app/$1"
     }
   ]
 }
